@@ -1,0 +1,47 @@
+body{
+	background-color: #fff;
+	font-family: montserrat;
+}
+
+#menu ul {
+	background-color: #fecd1a;
+	list-style-type: none;
+	/*padding: 0;*/
+	text-align: justify;
+
+}
+
+#menu ul li {
+	display: inline-block;
+	margin: 2px;
+	height: 50px;
+	width: 120px;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: red;
+}
+
+#menu ul li a:hover{
+	background-color: #fd3a69;
+	color: #fecd1a;
+}
+
+.logo{
+	height: 30px;
+	margin-left: 20PX;
+	margin-right: 20px;
+}
+
+.icone{
+	height: 25px;
+}
+
+.busca{
+	height: 25px;
+}
+
+#menu ul li {​​​​ 
+	list-style-type: none; 
+}​​​​
