@@ -1,6 +1,6 @@
 body{
 	background-color: #fff;
-	font-family: montserrat;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #menu ul {
@@ -34,8 +34,14 @@ body{
 	margin-right: 20px;
 }
 
-.icone{
+.carrinho{
 	height: 25px;
+	margin: 0px 5px 0px 15px;
+}
+
+.conta{
+	height: 25px;
+	margin: 0px 5px 0px 5px;
 }
 
 .busca{
@@ -45,3 +51,28 @@ body{
 #menu ul li {​​​​ 
 	list-style-type: none; 
 }​​​​
+
+.botaobusca{
+	outline-color: #fff;
+}
+.botaobusca:hover{
+	background-color: #FFC71F;
+}
+
+.hamburguer{
+	outline-color: #fff;
+}
+.hamburguer:hover{
+	background-color: #FFC71F;
+}
+
+.navbar-toggler-icon {​​​​​​​​​​
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255F, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}​​​​​​​​​​
+.navbar-toggler {​​​​​​​​​​
+      border-color: rgb(255,255,255, 0.5);
+}​​​​​​​​​​ 
+
+.navbar{
+	height: 150px;
+}
